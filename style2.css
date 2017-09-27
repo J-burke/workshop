@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.border-img {
+	height: 140px;
+	width: 200px;
+	background-image: url(images/abstract.jpeg);
+	padding: 20px;
+}
+
+.wrap{
+  width: 120px;
+  overflow-wrap: break-word;
+  background: darkgreen;
+  color: orange;
+}
+
+.gradient {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	background: repeating-radial-gradient(rgba(255,255,255,0),red);
+}
+
+.transition {
+	transition: height 2s, width 5s, transform 5s;
+}
+
+.transition:hover {
+	transform: rotate(900deg);
+}
+
+
+
